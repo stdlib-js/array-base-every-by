@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import everyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every-by@deno/mod.js';
+import everyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every-by@v0.2.0-deno/mod.js';
 ```
 
 #### everyBy( x, predicate\[, thisArg] )
@@ -146,7 +146,7 @@ var cnt = context.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 var isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer' ).isPrimitive;
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import everyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every-by@deno/mod.js';
+import everyBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-every-by@v0.2.0-deno/mod.js';
 
 var x = discreteUniform( 10, 0, 10, {
     'dtype': 'int32'
